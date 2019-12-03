@@ -6,17 +6,6 @@ class Login_app():
         root = tkinter.Tk()
         root.geometry("300x250")
         root.title("Login and Register App")
-        self.master = root
-        self.window1 = None
-        self.window2 = None
-        self.username = None
-        self.username_entry = None
-        self.username_entry1 = None
-        self.username_verify = None
-        self.password = None
-        self.password_entry = None
-        self.password_entry1 = None
-        self.password_verify = None
         config = {
           "user": "faizalam",
           "password": "password",
